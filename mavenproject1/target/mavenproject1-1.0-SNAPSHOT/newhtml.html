@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+<head>
+    <title>Send SMS</title>
+</head>
+<body>
+    <h2>Send SMS</h2>
+    <form action="newServlet" method="post">
+        <label for="toNumber">Phone Number:</label>
+        <input type="text" id="toNumber" name="toNumber"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Send SMS">
+    </form>
+</body>
+</html>
